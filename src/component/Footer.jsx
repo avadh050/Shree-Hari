@@ -74,12 +74,12 @@ const Footer = () => {
                 With years of expertise in the industry, we are dedicated to
                 ensuring your comfort and satisfaction.
               </p>
-              <p>
+              {/* <p>
                 At <strong>Shree Hari Engineer's</strong>, we prioritize your
                 convenience. Our services include comprehensive air conditioning
                 maintenance to prevent potential breakdowns and ensure your
                 system operates at peak efficiency.
-              </p>
+              </p> */}
             </div>
           )}
           {showContact && (
