@@ -10,7 +10,6 @@ import instagramImg from '../Image/instagram.jpeg';
 
 const Main = () => {
   const [isInquiryFormOpen, setIsInquiryFormOpen] = useState(false);
-
   const contactOptions = [
     {
       id: 1,
@@ -28,7 +27,7 @@ const Main = () => {
       id: 3,
       img: whatsappImg,
       heading: "WhatsApp",
-      link: `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=hello`,
+      link: `https://api.whatsapp.com/send?phone=+918320316525&text=hello`,
     },
     {
       id: 4,
