@@ -14,13 +14,13 @@ const Main = () => {
   const contactOptions = [
     {
       id: 1,
-      link: "tel:+1234567890",
+      link: "tel:+918320316525",
       img: phoneImg,
       heading: "Call",
     },
     {
       id: 2,
-      link: "mailto:example@example.com",
+      link: "mailto:avdhraiyani06@gmail.com",
       img: mailImg,
       heading: "Email",
     },
@@ -28,6 +28,7 @@ const Main = () => {
       id: 3,
       img: whatsappImg,
       heading: "WhatsApp",
+      link: `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=hello`,
     },
     {
       id: 4,
@@ -49,6 +50,7 @@ const Main = () => {
       id: 7,
       img: mapImg,
       heading: "Location",
+      link:`https://maps.app.goo.gl/9xkD2oUb4s9qEQ7z7`
     },
     {
       id: 8,
