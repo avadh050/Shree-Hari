@@ -1,4 +1,14 @@
 import React, { useState, useRef, useEffect } from 'react';
+import img1 from '../assets/phone.jpeg'
+import img2 from '../assets/mail.jpeg'
+import img3 from '../assets/whatsapp.jpeg'
+import img4 from '../assets/inquiry.png'
+import img5 from '../assets/service.png'
+import img6 from '../assets/qr.jpeg'
+import img7 from '../assets/map.jpeg'
+import img8 from '../assets/instagram.jpeg'
+
+
 
 const Main = () => {
   const [isInquiryFormOpen, setIsInquiryFormOpen] = useState(false);
@@ -9,47 +19,47 @@ const Main = () => {
     {
       id: 1,
       link: "tel:+91 8320316525",
-      img: "/src/assets/phone.jpeg",
+      img: {img1},
       heading: "Call",
     },
     {
       id: 2,
       link: "mailto:example@example.com",
-      img: "/src/assets/mail.jpeg",
+      img: {img2},
       heading: "Email",
     },
     {
       id: 3,
       link:" https://api.whatsapp.com/send?phone=8320316525&text=hello",
-      img: "/src/assets/whatsapp.jpeg",
+      img: {img3},
       heading: "WhatsApp",
     },
     {
       id: 4,
-      img: "/src/assets/inquiry.png",
+      img: {img4},
       heading: "Inquiry",
       onClick: () => setIsInquiryFormOpen(true),
     },
     {
       id: 5,
-      img: "/src/assets/service.png",
+      img: {img5},
       heading: "Service",
       onClick: () => setIsServiceListOpen(true),
     },
     {
       id: 6,
-      img: "/src/assets/qr.jpeg",
+      img: {img6},
       heading: "QR Code",
     },
     {
       id: 7,
-      img: "/src/assets/map.jpeg",
+      img: {img7},
       heading: "Location",
     },
     {
       id: 8,
       link: "https://instagram.com/yourprofile",
-      img: "/src/assets/instagram.jpeg",
+      img: {img8},
       heading: "Instagram",
     },
   ];
