@@ -38,7 +38,7 @@ const Footer = () => {
               <ul className="flex space-x-4">
                 <li>
                   <a
-                    className="text-gray-300 hover:text-white"
+                    className="text-gray-300 hover:text-white cursor-pointer"
                     onClick={handleAboutClick}
                   >
                     About
@@ -46,7 +46,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="text-gray-300 hover:text-white"
+                    className="text-gray-300 hover:text-white cursor-pointer"
                     onClick={handleContactClick}
                   >
                     Contact
@@ -54,7 +54,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="text-gray-300 hover:text-white"
+                    className="text-gray-300 hover:text-white cursor-pointer"
                     onClick={handleSupportClick}
                   >
                     Support
