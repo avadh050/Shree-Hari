@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-// import img1 from "../Image/phone.jpeg"
+import phoneImg from '../Image/phone.jpeg';
+import mailImg from '../Image/mail.jpeg';
+import whatsappImg from '../Image/whatsapp.jpeg';
+import inquiryImg from '../Image/inquiry.png';
+import shareImg from '../Image/share.jpeg';
+import qrImg from '../Image/qr.jpeg';
+import mapImg from '../Image/map.jpeg';
+import instagramImg from '../Image/instagram.jpeg';
 
 const Main = () => {
   const [isInquiryFormOpen, setIsInquiryFormOpen] = useState(false);
@@ -8,45 +15,45 @@ const Main = () => {
     {
       id: 1,
       link: "tel:+1234567890",
-      img: 'src/Image/phone.jpeg',
+      img: phoneImg,
       heading: "Call",
     },
     {
       id: 2,
       link: "mailto:example@example.com",
-      img: "src/Image/mail.jpeg",
+      img: mailImg,
       heading: "Email",
     },
     {
       id: 3,
-      img: "src/Image/whatsapp.jpeg",
+      img: whatsappImg,
       heading: "WhatsApp",
     },
     {
       id: 4,
-      img: "src/Image/inquiry.png",
+      img: inquiryImg,
       heading: "Inquiry",
       onClick: () => setIsInquiryFormOpen(true),
     },
     {
       id: 5,
-      img: "src/Image/share.jpeg",
+      img: shareImg,
       heading: "Share",
     },
     {
       id: 6,
-      img: "src/Image/qr.jpeg",
+      img: qrImg,
       heading: "QR Code",
     },
     {
       id: 7,
-      img: "src/Image/map.jpeg",
+      img: mapImg,
       heading: "Location",
     },
     {
       id: 8,
       link: "https://instagram.com/yourprofile",
-      img: "src/Image/instagram.jpeg",
+      img: instagramImg,
       heading: "Instagram",
     },
   ];
@@ -117,3 +124,8 @@ const Main = () => {
 };
 
 export default Main;
+
+
+
+
+ 
