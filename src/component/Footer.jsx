@@ -38,7 +38,6 @@ const Footer = () => {
               <ul className="flex space-x-4">
                 <li>
                   <a
-                    href="#about"
                     className="text-gray-300 hover:text-white"
                     onClick={handleAboutClick}
                   >
@@ -47,7 +46,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#contact"
                     className="text-gray-300 hover:text-white"
                     onClick={handleContactClick}
                   >
@@ -56,7 +54,6 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#Our Team"
                     className="text-gray-300 hover:text-white"
                     onClick={handleSupportClick}
                   >
